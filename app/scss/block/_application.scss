@@ -1,0 +1,52 @@
+.application-tasks {
+    background-image: url(../img/tasks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.application-mobile {
+    background-image: url(../img/mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.application-descript {
+    color: #000000;
+    .application-subtitle {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #00CC6A;
+        padding: 200px 0 40px;
+    }
+    .application-title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+    }
+    .application-text {
+        font-weight: 300;
+        font-size: 27px;
+        line-height: 38px;
+        letter-spacing: 0.05em;
+        padding-top: 30px;
+    }
+}
+
+.application-image {
+    padding-top: 100px;
+}
+
+.application-mobile {
+    .application-subtitle {
+        padding: 0;
+        margin-top: 140px;
+        margin-bottom: 40px;
+    }
+}

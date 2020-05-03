@@ -1,0 +1,27 @@
+.start {
+    background-image: url(../img/start.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    &-title {
+        padding: 73px 0 57px;
+    }
+    &-trial {
+        background: #FFFFFF;
+        border-radius: 40px;
+        padding: 17px 49px;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        margin-bottom: 75px;
+        color: #009D3F;
+        &:hover {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: rgba(1, 233, 121, 0.4);
+        }
+    }
+}
