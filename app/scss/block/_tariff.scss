@@ -1,0 +1,84 @@
+.tariff {
+    background-image: url(../img/tariff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    h5,
+    h3 {
+        text-align: center;
+    }
+    h5 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        padding: 70px 0 40px;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        padding-bottom: 60px;
+    }
+}
+
+.tariff-select {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    &:hover {
+        background: #4D0FFF;
+        transition: all .5s;
+    }
+    &__title {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        padding: 25px 0 20px;
+    }
+    &__price {
+        font-weight: 900;
+        font-size: 110px;
+        line-height: 129px;
+    }
+    &__btn {
+        background: rgba(142, 142, 142, 0.4);
+        border-radius: 40px;
+        padding: 10px 35px;
+        color: #FFFFFF;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    .tariff-card {
+        background-color: rgba(142, 142, 142, 0.4);
+        margin-bottom: 10px;
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+            padding-bottom: 20px;
+        }
+    }
+    &__buy {
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 40px;
+        padding: 10px 35px;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        &:hover {
+            text-decoration: none;
+            color: #000000;
+            background-color: #FFFFFF;
+        }
+    }
+}
