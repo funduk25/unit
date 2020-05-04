@@ -31,4 +31,13 @@
 
 .footer-tertiary {
     text-align: center;
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    &::before {
+        content: "\00A9";
+        font-size: 30px;
+    }
 }
