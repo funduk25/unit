@@ -1,4 +1,8 @@
-@media (max-width: 576px) {}
+@media (max-width: 376px) {
+    .footer-social li img {
+        width: 45px;
+    }
+}
 
 @media (max-width: 768px) {
     .header-inner__info_form {
@@ -42,6 +46,12 @@
     }
     .navbar-search {
         padding-right: 50px;
+    }
+    .tariff-select {
+        max-width: 75%;
+    }
+    .slider-author-name {
+        margin-left: 0 !important;
     }
 }
 

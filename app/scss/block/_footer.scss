@@ -3,7 +3,7 @@
     &-nav,
     &-social {
         padding: 100px 0 60px;
-        li {
+        li:not(:last-child) {
             padding-right: 30px;
         }
     }
